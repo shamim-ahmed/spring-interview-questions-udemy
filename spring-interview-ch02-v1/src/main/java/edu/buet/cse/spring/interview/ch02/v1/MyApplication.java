@@ -14,7 +14,7 @@ import edu.buet.cse.spring.interview.ch02.v1.service.SearchService;
 import edu.buet.cse.spring.interview.ch02.v1.service.SortAlgorithm;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"edu.buet.cse.spring.interview.ch02.service.impl"})
+@ComponentScan(basePackages = {"edu.buet.cse.spring.interview.ch02.v1"})
 public class MyApplication implements CommandLineRunner {
 
   @Autowired

@@ -1,4 +1,4 @@
-package edu.buet.cse.spring.interview.ch02.v2;
+package edu.buet.cse.spring.interview.ch02.v3;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -6,14 +6,12 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
-import org.springframework.test.context.ContextConfiguration;
 
-import edu.buet.cse.spring.interview.ch02.v2.service.impl.BubbleSortAlgorithm;
-import edu.buet.cse.spring.interview.ch02.v2.service.impl.IntArrayGeneratorImpl;
-import edu.buet.cse.spring.interview.ch02.v2.service.impl.SelectionSortAlgorithm;
+import edu.buet.cse.spring.interview.ch02.v3.service.impl.BubbleSortAlgorithm;
+import edu.buet.cse.spring.interview.ch02.v3.service.impl.IntArrayGeneratorImpl;
+import edu.buet.cse.spring.interview.ch02.v3.service.impl.SelectionSortAlgorithm;
 
 @SpringBootTest
-@ContextConfiguration(locations = {"/spring-beans.xml"})
 public class MyApplicationTests {
 
   @Autowired
