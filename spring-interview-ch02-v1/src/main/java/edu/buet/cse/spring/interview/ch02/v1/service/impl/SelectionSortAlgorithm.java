@@ -1,8 +1,8 @@
-package edu.buet.cse.spring.interview.ch02.service.impl;
+package edu.buet.cse.spring.interview.ch02.v1.service.impl;
 
 import org.springframework.stereotype.Component;
 
-import edu.buet.cse.spring.interview.ch02.service.SortAlgorithm;
+import edu.buet.cse.spring.interview.ch02.v1.service.SortAlgorithm;
 
 @Component(value = "selectionSortAlgorithm")
 public class SelectionSortAlgorithm implements SortAlgorithm {

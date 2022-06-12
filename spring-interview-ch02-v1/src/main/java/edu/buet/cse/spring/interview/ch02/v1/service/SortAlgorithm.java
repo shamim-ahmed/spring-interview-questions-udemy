@@ -1,4 +1,4 @@
-package edu.buet.cse.spring.interview.ch02.service;
+package edu.buet.cse.spring.interview.ch02.v1.service;
 
 public interface SortAlgorithm {
   void sort(int[] values);
