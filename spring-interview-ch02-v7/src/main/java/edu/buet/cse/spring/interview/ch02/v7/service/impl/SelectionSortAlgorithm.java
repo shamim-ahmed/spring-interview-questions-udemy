@@ -1,10 +1,12 @@
-package edu.buet.cse.spring.interview.ch02.v6.service.impl;
+package edu.buet.cse.spring.interview.ch02.v7.service.impl;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-import edu.buet.cse.spring.interview.ch02.v6.service.SortAlgorithm;
+import edu.buet.cse.spring.interview.ch02.v7.service.SortAlgorithm;
 
 @Component("selectionSortAlgorithm")
+@Primary
 public class SelectionSortAlgorithm implements SortAlgorithm {
 
   @Override

@@ -21,11 +21,11 @@ public class MyApplication implements CommandLineRunner {
   private IntArrayGenerator intArrayGenerator;
   
   @Autowired
-  @Qualifier(value = "bubbleSortAlgorithm")
+  @Qualifier("bubbleSortAlgorithm")
   private SortAlgorithm sortAlgorithm;
 
   @Autowired
-  @Qualifier(value = "binarySearchService")
+  @Qualifier("binarySearchService")
   private SearchService searchService;
 
   private final Logger logger = LogManager.getLogger(getClass());

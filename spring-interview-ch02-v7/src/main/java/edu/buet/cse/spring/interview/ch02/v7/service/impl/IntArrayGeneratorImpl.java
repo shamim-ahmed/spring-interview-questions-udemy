@@ -1,10 +1,10 @@
-package edu.buet.cse.spring.interview.ch02.v1.service.impl;
+package edu.buet.cse.spring.interview.ch02.v7.service.impl;
 
 import java.util.Random;
 
 import org.springframework.stereotype.Component;
 
-import edu.buet.cse.spring.interview.ch02.v1.service.IntArrayGenerator;
+import edu.buet.cse.spring.interview.ch02.v7.service.IntArrayGenerator;
 
 @Component("intArrayGenerator")
 public class IntArrayGeneratorImpl implements IntArrayGenerator {

@@ -1,8 +1,8 @@
-package edu.buet.cse.spring.interview.ch02.v4.service.impl;
+package edu.buet.cse.spring.interview.ch02.v7.service.impl;
 
 import org.springframework.stereotype.Component;
 
-import edu.buet.cse.spring.interview.ch02.v4.service.SearchService;
+import edu.buet.cse.spring.interview.ch02.v7.service.SearchService;
 
 @Component("binarySearchService")
 public class BinarySearchService implements SearchService {

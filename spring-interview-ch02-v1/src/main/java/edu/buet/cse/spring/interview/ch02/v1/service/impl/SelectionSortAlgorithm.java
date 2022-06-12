@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 import edu.buet.cse.spring.interview.ch02.v1.service.SortAlgorithm;
 
-@Component(value = "selectionSortAlgorithm")
+@Component("selectionSortAlgorithm")
 public class SelectionSortAlgorithm implements SortAlgorithm {
 
   @Override

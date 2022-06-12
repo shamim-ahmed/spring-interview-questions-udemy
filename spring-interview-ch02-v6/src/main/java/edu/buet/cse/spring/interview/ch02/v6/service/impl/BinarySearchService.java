@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 import edu.buet.cse.spring.interview.ch02.v6.service.SearchService;
 
-@Component(value = "binarySearchService")
+@Component("binarySearchService")
 public class BinarySearchService implements SearchService {
   @Override
   public int search(int[] values, int n) {

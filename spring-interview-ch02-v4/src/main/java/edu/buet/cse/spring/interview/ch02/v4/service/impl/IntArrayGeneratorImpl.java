@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 import edu.buet.cse.spring.interview.ch02.v4.service.IntArrayGenerator;
 
-@Component(value = "intArrayGenerator")
+@Component("intArrayGenerator")
 public class IntArrayGeneratorImpl implements IntArrayGenerator {
   private static final int MAX = 100;
   private static final int SIZE = 25;
