@@ -30,7 +30,6 @@ public class MyApplication implements CommandLineRunner {
 
   @Override
   public void run(String... args) {
-
     int[] values = intArrayGenerator.generateValues();
     sortAlgorithm.sort(values);
 
