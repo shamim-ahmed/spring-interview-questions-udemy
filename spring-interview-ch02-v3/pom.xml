@@ -14,7 +14,7 @@
   <artifactId>spring-interview-ch02-v3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>spring-interview-ch02-v3</name>
-  <description>Demonstrate how spring beans can be configured using java class</description>
+  <description>Demonstrate how spring beans can be retrieved using AnnotationConfigApplicationContext</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

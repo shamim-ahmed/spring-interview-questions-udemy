@@ -6,12 +6,14 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
+import org.springframework.test.context.ContextConfiguration;
 
 import edu.buet.cse.spring.interview.ch02.v3.service.impl.BubbleSortAlgorithm;
 import edu.buet.cse.spring.interview.ch02.v3.service.impl.IntArrayGeneratorImpl;
 import edu.buet.cse.spring.interview.ch02.v3.service.impl.SelectionSortAlgorithm;
 
 @SpringBootTest
+@ContextConfiguration(classes = {BeanConfiguration.class})
 public class MyApplicationTests {
 
   @Autowired
