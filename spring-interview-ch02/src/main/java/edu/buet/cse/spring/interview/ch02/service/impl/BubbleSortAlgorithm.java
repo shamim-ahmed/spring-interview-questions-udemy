@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 import edu.buet.cse.spring.interview.ch02.service.SortAlgorithm;
 
-@Component(value = "BubbleSort")
+@Component(value = "bubbleSortAlgorithm")
 public class BubbleSortAlgorithm implements SortAlgorithm {
 
   @Override
